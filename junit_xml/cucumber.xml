@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="151.77686">
+<testcase classname="Here page loads and internal links are accessible" name="Verify page loads and internal links are accessible" time="151.77686">
+<system-out><![CDATA[Given the user visits the application.......................................passed
+When the page loads properly................................................passed
+Then user can verify broken links...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

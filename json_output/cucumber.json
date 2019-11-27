@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify page loads and internal links are accessible",
+        "description": "",
+        "id": "here-page-loads-and-internal-links-are-accessible;verify-page-loads-and-internal-links-are-accessible",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9632751967,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user visits the application",
+            "match": {
+              "location": "Steps.the_user_visits_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8739843,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the page loads properly",
+            "match": {
+              "location": "Steps.the_page_loads_properly()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142135367718,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user can verify broken links",
+            "match": {
+              "location": "Steps.user_can_verify_broken_links()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Here page loads and internal links are accessible",
+    "description": "",
+    "id": "here-page-loads-and-internal-links-are-accessible",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/MyTest.feature"
+  }
+]
