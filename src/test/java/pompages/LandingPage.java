@@ -33,10 +33,6 @@ public class LandingPage {
 		}
 	}
 	
-//	public void waitForAngular(){
-//		new NgWebDriver((JavascriptExecutor) driver).waitForAngularRequestsToFinish();
-//	}
-	
 	public void checkBrokenLinks(){
 		HttpsURLConnection huc = null;
 		String homepage="https://developer.here.com/documentation";
