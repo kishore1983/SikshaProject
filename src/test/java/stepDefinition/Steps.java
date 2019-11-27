@@ -25,7 +25,7 @@ public class Steps {
 		lp.verifyPage();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		NgWebDriver ngDriver = new NgWebDriver(js);
-		ngDriver.waitForAngularRequestsToFinish();
+//		ngDriver.waitForAngularRequestsToFinish();
 		System.out.println("Angular components are initialized");
 	}
 

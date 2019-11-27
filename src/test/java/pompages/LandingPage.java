@@ -38,7 +38,7 @@ public class LandingPage {
 		String homepage="https://developer.here.com/documentation";
 		String url=" ";
 		int respCode =200;
-		List<WebElement> links = driver.findElements(By.xpath("//a"));
+		List<WebElement> links = driver.findElements(By.xpath("//div[@class='uk-container uk-margin-large-bottom']/.//a"));
 		Iterator it = links.iterator();
 		while (it.hasNext()) {
 			url = ((WebElement) it.next()).getAttribute("href");
