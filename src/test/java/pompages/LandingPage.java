@@ -35,7 +35,6 @@ public class LandingPage {
 	
 //	public void waitForAngular(){
 //		new NgWebDriver((JavascriptExecutor) driver).waitForAngularRequestsToFinish();
-//		
 //	}
 	
 	public void checkBrokenLinks(){
